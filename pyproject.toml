@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "showcase-ai-in-logistic-and-production"
+version = "0.1.0"
+description = ""
+authors = ["Buedinger-AI <philippe@buedinger-ai.de>"]
+readme = "README.md"
+package-mode = false
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.38.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
